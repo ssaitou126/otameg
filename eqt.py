@@ -15,6 +15,7 @@ st.write(f'現在A時刻は{astr}です')
 jtoday = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9)))
 jstr = jtoday.strftime('%Y-%m-%d  %H:%M:%S')
 st.write(f'現在J時刻は{jstr}です')
+st.write('v1.0.1')
 
 val = st.slider('valiable',1,5,1)
 
